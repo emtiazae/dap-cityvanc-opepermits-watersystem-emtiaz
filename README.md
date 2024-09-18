@@ -1,1 +1,1 @@
-# dap-cityvanc-opepermits-watersystem-emtiaz
+# AWS Data Analytics Platform for The City of Vancouver
