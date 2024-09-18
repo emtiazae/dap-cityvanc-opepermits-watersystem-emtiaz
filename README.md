@@ -13,12 +13,12 @@ As the City of Vancouver seeks to optimize its public services, it requires a ro
 
 # Scope
 The project focuses on the following areas:
-
 Data Storage: Efficient and secure storage of datasets using Amazon S3.
 Data Transformation: Automating data ingestion and transformation using AWS Glue.
 Data Analysis: Using Amazon Athena for querying and analyzing the datasets.
 Data Security: Ensuring encryption and access control using AWS KMS and IAM policies.
 Monitoring: Using CloudWatch and CloudTrail for continuous monitoring of system performance and data security.
+
 # Methodology
 Current State Assessment:
 Analyze the existing data sources and workflows.
@@ -35,29 +35,33 @@ Data Governance:
 Establish governance processes to ensure data quality, including masking sensitive data.
 Data Analysis and Visualization:
 Perform SQL-based queries using Athena, and visualize the results with integrated tools.
+
 # Tools and Technologies
 AWS Services: S3, Glue, Athena, EC2, CloudWatch, CloudTrail, KMS
 Data Profiling: AWS Glue DataBrew for cleansing and transforming datasets.
 Data Analysis: Amazon Athena for querying datasets stored in S3.
 Data Monitoring: CloudWatch for monitoring system performance and CloudTrail for tracking API calls.
 Security: AWS KMS for encryption, IAM for access control.
+
 # Deliverables
 Data Analytics Platform (DAP): A comprehensive platform deployed on AWS, including processes, data pipelines, and security measures.
 Cleaned Datasets: Datasets that are cleansed, transformed, and validated, stored in S3 for further analysis.
 Monitoring Dashboard: A real-time dashboard created in CloudWatch to monitor data quality and system performance.
 Documentation: Detailed documentation outlining data flows, ETL processes, and governance measures.
 Training Resources: Educational materials for city officials and administrators on how to use the platform effectively.
+
 # DAP Architecture Overview
 The architecture is built on six core pillars:
-
 Operational Excellence: Automated data processing and monitoring using AWS Glue and CloudWatch.
 Security: Data encryption using KMS and secure access control with IAM.
 Reliability: Data replication across regions using S3 and regular backups.
 Performance Efficiency: Use of Athena and Glue for scalable data processing.
 Cost Optimization: Efficient use of serverless technologies and lifecycle management in S3.
 Sustainability: Use of AWS serverless technologies to minimize resource consumption.
+
 # Timeline
 Phase 1 (Design & Implementation): Completed by August 27, 2024.
 Phase 2 (Data Protection & Monitoring): Completed by September 15, 2024.
+
 # Conclusion
 This project demonstrates the use of AWS cloud services to design a scalable, secure, and efficient Data Analytics Platform for the City of Vancouver. The platform ensures high data quality, reliable performance, and robust security measures, while being cost-effective and sustainable.
