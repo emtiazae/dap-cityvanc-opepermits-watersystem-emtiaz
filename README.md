@@ -1,5 +1,4 @@
 # AWS Data Analytics Platform for The City of Vancouver
-Project Description
 The AWS Data Analytics Platform (DAP) for the City of Vancouver was developed to store, process, and analyze vast datasets related to urban infrastructure and public services. The project uses AWS cloud services for secure storage, data encryption, monitoring, and processing to enable the city to make data-driven decisions efficiently.
 
 # Project Title
