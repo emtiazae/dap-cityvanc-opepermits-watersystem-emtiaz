@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14">
+  <diagram name="Page-1" id="GYH26-BE-DL42qdZflEd">
+    <mxGraphModel dx="1344" dy="-935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-19" value="AWS Data Center" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_account;strokeColor=#CD2264;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#CD2264;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="2408.2400000000002" width="1660" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-20" value="Virginia" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#00A4A6;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=1;" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-19">
+          <mxGeometry x="40" y="50" width="1550" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-21" value="Data Analytic Platform (City of Vancouver)" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-20">
+          <mxGeometry x="30" y="60" width="1470" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-22" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-20">
+          <mxGeometry x="110" y="140" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LXDzyqrESPQ0gwNqlJLr-20" source="LXDzyqrESPQ0gwNqlJLr-23" target="LXDzyqrESPQ0gwNqlJLr-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-23" value="Bucket: City of Vancouver" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.bucket_with_objects;" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-20">
+          <mxGeometry x="120" y="270" width="50" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-24" value="Bucket Structure:&lt;div&gt;/Landing&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/systemui/21/hierarchy-128.png" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-20">
+          <mxGeometry x="100.5" y="367" width="89" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-25" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-20">
+          <mxGeometry x="463" y="141.76000000000022" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-26" value="Bucket: City of Vancouver" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.bucket_with_objects;" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-20">
+          <mxGeometry x="473" y="269" width="50" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-27" value="Bucket Structure:&lt;div&gt;/Raw&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/systemui/21/hierarchy-128.png" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-20">
+          <mxGeometry x="453.5" y="367.0000000000002" width="89" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-28" value="Glue Databrew" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.glue_databrew;" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-20">
+          <mxGeometry x="302" y="140" width="61" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-29" value="Pipeline: City of Vancouver" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_analytics_pipeline;" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-20">
+          <mxGeometry x="291" y="278.7600000000002" width="78" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-30" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-20">
+          <mxGeometry x="786" y="140.76000000000022" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-31" value="Bucket: City of Vancouver" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.bucket_with_objects;" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-20">
+          <mxGeometry x="796" y="270.7600000000002" width="50" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-32" value="Bucket Structure:&lt;div&gt;/curated&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/systemui/21/hierarchy-128.png" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-20">
+          <mxGeometry x="780.5" y="367" width="89" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-33" value="Pipeline: City of Vancouver" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_analytics_pipeline;" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-20">
+          <mxGeometry x="629" y="279.7600000000002" width="78" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-34" value="Glue" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.glue;" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-20">
+          <mxGeometry x="640" y="142.76" width="61" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-35" value="Data Catalog: City of Vancouver" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.glue_data_catalog;" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-20">
+          <mxGeometry x="978.16" y="268.76" width="48.69" height="52.75" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-36" value="Amazon Athena" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.athena;" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-20">
+          <mxGeometry x="971" y="140" width="69" height="99.76" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-37" value="Bucket Structure:&lt;div&gt;/data/curated/ data products&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/systemui/21/hierarchy-128.png" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-20">
+          <mxGeometry x="963" y="367.0000000000002" width="89" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-38" value="Amazon QuickSight" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.quicksight;" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-20">
+          <mxGeometry x="1138" y="142.76" width="62" height="97.24" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-39" value="Dashboard: City of Vancouver" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.opensearch_dashboards;" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-20">
+          <mxGeometry x="1142" y="272.84" width="65" height="49.16" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-40" value="Amazon EC2" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.ec2;" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-20">
+          <mxGeometry x="1326" y="142.76" width="62" height="87.24" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-41" value="General Server" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.virtual_server;" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-20">
+          <mxGeometry x="1300" y="253.62" width="40" height="68.38" as="geometry" />
+        </mxCell>
+        <mxCell id="LXDzyqrESPQ0gwNqlJLr-42" value="Web Server" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.virtual_web_server;" vertex="1" parent="LXDzyqrESPQ0gwNqlJLr-20">
+          <mxGeometry x="1382" y="252.8" width="52" height="69.24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
